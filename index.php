@@ -1,3 +1,6 @@
 <?php 
-    echo "trang chu";
+    session_start();
+    ob_start();
+    include "db.php";
 ?>
+
