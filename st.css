@@ -1,0 +1,48 @@
+* {
+    word-wrap: break-word;
+    overflow-wrap: break-word;
+    overflow-wrap: anywhere;
+    cursor: none;
+}
+
+html {
+    scroll-behavior: smooth;
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    -o-user-select: none;
+    user-select: none;
+}
+
+*::-webkit-scrollbar {
+    width: 0;
+    display: none;
+}
+
+body {
+    font-size: 16px;
+    font-weight: 550;
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: rgb(45, 85, 105);
+    margin: 0;
+}
+
+.main {
+    max-width: 1080px;
+    min-height: 100dvh;
+    margin: 0 auto;
+}
+
+.cursor {
+    display: none;
+    position: fixed;
+    width: 18px;
+    height: 18px;
+    background-color: white;
+    border-radius: 10% 70% 80% 70%;
+    pointer-events: none;
+    transform: translate(-10%, -10%);
+    mix-blend-mode: difference;
+}
