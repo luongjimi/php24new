@@ -2,17 +2,10 @@
     word-wrap: break-word;
     overflow-wrap: break-word;
     overflow-wrap: anywhere;
-    cursor: none;
 }
 
 html {
     scroll-behavior: smooth;
-    -webkit-touch-callout: none;
-    -webkit-user-select: none;
-    -moz-user-select: none;
-    -ms-user-select: none;
-    -o-user-select: none;
-    user-select: none;
 }
 
 *::-webkit-scrollbar {
@@ -23,26 +16,112 @@ html {
 body {
     font-size: 16px;
     font-weight: 550;
-    color: white;
+    color: back;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    background-color: rgb(45, 85, 105);
     margin: 0;
 }
 
 .main {
     max-width: 1080px;
-    min-height: 100dvh;
+    min-height: 100vh;
+    overflow: hidden;
     margin: 0 auto;
+    background-color: white;
 }
 
-.cursor {
-    display: none;
-    position: fixed;
-    width: 18px;
-    height: 18px;
-    background-color: white;
-    border-radius: 10% 70% 80% 70%;
-    pointer-events: none;
-    transform: translate(-10%, -10%);
-    mix-blend-mode: difference;
+.img_nav {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    justify-content: space-between;
+}
+
+.img_nav img {
+    object-fit: cover;
+    height: 56px;
+    width: auto;
+}
+
+.sidebar {
+    position: relative;
+    top: 0;
+    left: 0;
+    height: 100vh;
+    overflow-y: scroll;
+    min-width: 260px;
+    border-right: 1px solid rgba(0, 0, 0, 0.247);
+    border-left: 1px solid rgba(0, 0, 0, 0.247);
+    padding: 8px 15px;
+}
+
+.ul_menu {
+    margin: 20px 0;
+    padding: 0;
+}
+
+.ul_menu li {
+    list-style: none;
+}
+
+.item {
+    background-color: rgba(230, 230, 230, 0.555);
+    padding: 10px;
+    border-radius: 8px;
+    margin-bottom: 22px;
+}
+
+.link_item {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    color: rgb(0, 0, 0);
+    font-size: 18px;
+    text-decoration: none;
+}
+
+.icon21 {
+    height: 30px;
+    width: auto;
+
+}
+
+.item:hover {
+    background-color: aqua;
+    transition: all 0.4s;
+}
+
+.flx_nav {
+    display: flex;
+}
+
+.nav_top {
+    width: 100%;
+    border-right: 1px solid rgba(0, 0, 0, 0.349);
+    padding: 8px 12px;
+    height: 100vh;
+    overflow-y: scroll;
+}
+
+.top_flx {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    gap: 20px;
+}
+
+.img_us_top {
+    border: 1px solid rgba(0, 0, 0, 0.151);
+    padding: 7px;
+    border-radius: 15px;
+}
+
+.icon31 {
+    padding: 8px 8px 5px 8px;
+    background-color: rgba(230, 230, 230, 0.555);
+    cursor: pointer;
+}
+
+.img_us_top:hover {
+    transition: all 0.4s;
+    background-color: rgba(0, 255, 255, 0.39);
 }
