@@ -1,7 +1,7 @@
 <?php 
     session_start();
     ob_start();
-    include "db.php";
+    //include "db.php";
 ?>
 
 <!DOCTYPE html>
@@ -142,8 +142,10 @@
                                 </h3>
                                 <hr>
                                 <?php for ($i=0; $i < 10 ; $i++) { 
-                                    ?> <a>Lorem ipsum dolor sit amet consectetur adipisicing elit. Deleniti sapiente
-                                    facere </a>
+                                    ?> <a>
+                                    <p style="margin: 0; font-size: 12px;"> 05/04/2023 </p>
+                                    Bạn đã rút thành công 5$
+                                </a>
                                 <?php
                                 } ?>
                             </div>

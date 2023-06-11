@@ -1,0 +1,13 @@
+1. học làm web với php, mysqli (mysql db)
+    -> lv 2 : làm web với frame work [laravel], composer và sử dụng PDO syntax
+    
+2. học làm web với javascript thuần + express,... (mysql db + monggo db)
+    -> lv 2 : làm web với frame work [react.js / next.js]
+    -> lv 3 : làm app android + ios sử dụng [react native]
+
+3. làm game android, ios, web sử dụng [unity] (C#, C++) + webgl hoặc [javascript]
+
+4. làm diễn họa 3d (blender) + chỉnh sửa video(adobe) + làm nhạc (fl studio)
+___________________________________________________________________________________________________
+
+=> nâng cao : sử dụng blockchain

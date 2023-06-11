@@ -1,0 +1,12 @@
+UP len github
+
+1. git init
+2. git add .
+3. git config --global user.email "you@example.com"
+4. git config --global user.name "Your Name"
+5. git commit -m "first commit"
+6. git remote add origin https://github.com/luongjimi/demojs24.git
+7. git push -u origin master
+
+chu y : neu file thay doi -> lam lai buoc 2 _ buoc 5 _ buoc 7 
+
